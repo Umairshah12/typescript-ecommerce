@@ -9,7 +9,6 @@ interface CartItemsProps {
 
 }
 
-
 const CartItems: React.FC<CartItemsProps> = ({ item, addtoCart, removeFromCart }) => {
   
   return (

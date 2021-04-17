@@ -19,8 +19,8 @@ interface CartProps {
   return (
     <>
       <Wrapper>
-        <h2>Your Shopping Cart </h2>
-        {cartItems.length === 0 ? <p>NO items in Cart</p>:""}
+        <h2>YOUR SHOPPING CART</h2>
+        {cartItems.length === 0 ? <p>NO ITEMS IN CART</p>:""}
         {cartItems?.map(item => {
           return <CartItems item={item} addtoCart={addtoCart} removeFromCart={removeFromCart} />
         })}
